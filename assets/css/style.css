@@ -514,6 +514,20 @@ form label.error { font-size: 0.665em; letter-spacing: 0.2px; }
 .dtr-img-feature i { position: relative; font-size: 48px; line-height: 48px; z-index: 9; }
 .dtr-img-feature-heading { margin-bottom: 20px; }
 /*===== Styled heading =====*/
+.custom-list {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 1.2em;
+}
+
+.custom-list li::marker {
+    color: orange;
+}
+
 .dtr-styled-heading { margin-bottom: 40px; }
 .dtr-styled-heading h2 { font-size: 47px; margin-bottom: 20px; }
 .dtr-styled-heading p { margin: 0; padding: 0; }
